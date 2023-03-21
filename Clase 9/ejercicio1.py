@@ -9,9 +9,8 @@ def elegir_paises():
         mi_set.add(pais)
         x =+ 1
     
-    new_set = sorted(list(mi_set))
 
-    return(print(new_set))
+    return print(",".join(list(mi_set)))
 
 
 elegir_paises()
